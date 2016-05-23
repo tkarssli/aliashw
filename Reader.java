@@ -43,7 +43,6 @@ public class Reader {
         // Create dictionary as hashtable from .txt file
         try {
             dict = new Hashtable<String, String>();
-            System.out.print(new File(".").getAbsolutePath());
             BufferedReader dictFile = new BufferedReader(new FileReader("C:\\Projects\\Alias HW\\linked lists\\src\\words.txt"));
 
             // Add words line by line until end of file
