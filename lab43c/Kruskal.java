@@ -1,5 +1,9 @@
 package lab43c;
 
+/**
+ * Created by Alia Karssli
+ */
+
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
